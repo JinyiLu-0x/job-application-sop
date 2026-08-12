@@ -1,0 +1,15 @@
+interface:
+  display_name: Run Job Applications
+  short_description: Discover roles and complete tailored job applications
+  default_prompt: Use $run-job-applications to find suitable opportunities, generate
+    formal and LinkedIn Posts searches, and guide applications through forms, resume
+    and cover letter tailoring.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
